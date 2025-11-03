@@ -17,7 +17,7 @@ function love.update(dt)
   for , v in ipairs(actorList) do
     v:update(dt)
   end
-end
+end--prueba
 
 function love.draw()
   love.graphics.print("Number astro eliminated: "..tostring(score),10,10)
